@@ -20,7 +20,7 @@ public class WeatherStation {
 		AllConditionsDisplay allConditionsDisplay = new AllConditionsDisplay(weatherData);
 		weatherData.setMeasurements(2.2f, 2.2f, 2.2f);
 		
-		//observer in java
+		//observer in java sdk
 		WeatherData_Java weatherData_Java = new WeatherData_Java();
 		AllConditionsDisplay_Java allConditionsDisplay_Java = new AllConditionsDisplay_Java(weatherData_Java);
 		weatherData_Java.setMeasurements(3.3f, 3.3f, 44.0f);
